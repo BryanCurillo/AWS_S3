@@ -1,0 +1,25 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAU4OT4X3XCLFXHWWZ
+      secret-key: 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
+    region:
+      static: us-east-1
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: bucketark
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 20MB
+      max-request-size: 50MB
+
+server:
+  port: 9090
